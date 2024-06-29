@@ -309,7 +309,7 @@ varying vec2 vTextureCoord;
 uniform samplerExternalOES sTexture;
 uniform sampler2D uAltImage;
 
-// 映像を描画するのか、画像を表示するのか
+// uniform shader
 uniform int uDrawAltImage;
 
 void main() {
