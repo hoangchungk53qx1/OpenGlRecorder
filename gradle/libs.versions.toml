@@ -14,7 +14,7 @@ androidx-navigation = "2.7.7"
 multidex = "2.0.1"
 dagger = "2.51"
 gmsPlugin = "4.4.0"
-ksp = "1.9.21-1.0.16"
+ksp = "1.9.24-1.0.20"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
