@@ -16,6 +16,13 @@ dagger = "2.51.1"
 gmsPlugin = "4.4.0"
 ksp = "1.9.24-1.0.20"
 
+detekt = "1.23.5"
+kotlinx-kover = "0.7.6"
+ktlint = "1.0.0"
+spotless = "6.25.0"
+
+compose-rules-detekt = "0.3.0"
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -41,6 +48,7 @@ androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fr
 androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx-navigation" }
 
 androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+compose-rules-detekt = { module = "io.nlopez.compose.rules:detekt", version.ref = "compose-rules-detekt" }
 
 
 # Dagger Hilt
@@ -59,6 +67,11 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 #Google Services
 gms = { id = "com.google.gms.google-services", version.ref = "gmsPlugin" }
+
+gradle-spotless = { id = "com.diffplug.gradle.spotless", version.ref = "spotless" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+kotlinx-kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kotlinx-kover" }
+
 
 [bundles]
 
