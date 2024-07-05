@@ -82,7 +82,6 @@ fun MainScreenRecord(name: String, modifier: Modifier = Modifier) {
 
     Column(
         modifier = Modifier
-
             .fillMaxSize()
             .wrapContentSize(Alignment.Center)
     ) {

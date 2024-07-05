@@ -3,6 +3,9 @@ package com.vn.chungha.openglrecoder.encode
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.graphics.Color
+import android.graphics.Paint
 import android.hardware.display.DisplayManager
 import android.hardware.display.VirtualDisplay
 import android.media.MediaRecorder
@@ -199,15 +202,15 @@ class ScreenRecorder(
      */
     private fun createAltImage(): Bitmap =
         Bitmap.createBitmap(VIDEO_WIDTH, VIDEO_HEIGHT, Bitmap.Config.ARGB_8888).also { bitmap ->
-//        val canvas = Canvas(bitmap)
-//        val paint = Paint().apply {
-//            color = Color.WHITE
-//            textSize = 50f
-//        }
-//
-//        canvas.drawColor(Color.BLACK)
-//        canvas.drawText("Test", 100f, 100f, paint)
-//        canvas.drawText("Test1。", 100f, 200f, paint)
+        val canvas = Canvas(bitmap)
+        val paint = Paint().apply {
+            color = Color.WHITE
+            textSize = 50f
+        }
+
+        canvas.drawColor(Color.BLACK)
+        canvas.drawText("Test", 100f, 100f, paint)
+        canvas.drawText("Test1。", 100f, 200f, paint)
         }
 
     companion object {

@@ -7,6 +7,7 @@ import android.content.Intent
 import android.content.pm.ServiceInfo
 import android.os.Build
 import android.os.IBinder
+import android.util.Log
 import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
@@ -39,6 +40,8 @@ class ScreenRecordService : Service() {
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         // Notify the foreground service notification
         notifyForegroundServiceNotification()
+
+        Log.d("ScreenRecordService", "onStartCommand")
 
         // Extract values from the intent
         if (intent?.getBooleanExtra(INTENT_KEY_START_OR_STOP, false) == true) {
