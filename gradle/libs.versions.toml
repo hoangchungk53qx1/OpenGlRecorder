@@ -13,7 +13,7 @@ androidx-lifecycle = "2.8.2"
 androidx-navigation = "2.7.7"
 multidex = "2.0.1"
 dagger = "2.51.1"
-gmsPlugin = "4.4.0"
+gmsPlugin = "4.4.2"
 ksp = "1.9.24-1.0.20"
 
 detekt = "1.23.5"
