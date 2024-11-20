@@ -9,7 +9,7 @@ lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.8.0"
 composeBom = "2024.04.01"
 
-androidx-lifecycle = "2.8.2"
+androidx-lifecycle = "2.8.7"
 androidx-navigation = "2.7.7"
 multidex = "2.0.1"
 dagger = "2.51.1"
