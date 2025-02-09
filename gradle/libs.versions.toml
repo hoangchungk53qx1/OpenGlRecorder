@@ -14,7 +14,7 @@ androidx-navigation = "2.7.7"
 multidex = "2.0.1"
 dagger = "2.51.1"
 gmsPlugin = "4.4.0"
-ksp = "1.9.24-1.0.20"
+ksp = "1.9.25-1.0.20"
 
 detekt = "1.23.5"
 kotlinx-kover = "0.7.6"
