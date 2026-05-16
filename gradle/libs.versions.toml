@@ -16,7 +16,7 @@ dagger = "2.51.1"
 gmsPlugin = "4.4.0"
 ksp = "1.9.24-1.0.20"
 
-detekt = "1.23.5"
+detekt = "1.23.8"
 kotlinx-kover = "0.7.6"
 ktlint = "1.0.0"
 spotless = "6.25.0"
